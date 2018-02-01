@@ -13,7 +13,7 @@
 
 <div class="wrapper">
     <header class="heading">
-        <a href="" class="hire right"><img src="imgs/hi.gif"><br> Hire me now!</a>
+        <a href="JavaScript:void(0)" class="hire right" id="hire"><img src="imgs/hi.gif"><br> Hire me now!</a>
 
         <h1>Muthami Geoffrey</h1>
         <p>
@@ -41,8 +41,7 @@
             </p>
             <p>
                 Muthami Geoffrey is a Web Applications Developer focused on CSS, PHP, HTML and JavaScript, with
-                experience developing Apps with Laravel framework as well as APIs in Laravel and client-side single-page
-                apps using AngularJS.
+                experience developing Apps with Laravel framework, Javascript, CSS and HTML5 as well as APIs in Laravel and client-side single-page apps using AngularJS.
                 He's equally comfortable working with a team or flying solo.
             </p>
             <br>
@@ -147,7 +146,7 @@
                     For more of my projects plus working demo, please visit my <a href="">github</a> account.
                 </p>
                 <footer>
-                    Technologies : PHP 7, CSS, HTML, Javascript
+                    Technologies : CSS, HTML, Javascript
                 </footer>
             </article>
         </div>
@@ -199,13 +198,42 @@
     </section>
 </div>
 
+<div class="modal" id="modal">
+    <div class="modal-header">
+        <span class="close">&times;</span>
+        HIRE ME
+    </div>
+    <div class="modal-content">
+        <p>Call me throught : <b>0716 028726</b><br>
+            Send me an E-Mail : <b>ggeovry@gmail.com</b></p>
+    </div>
+</div>
+
 <footer class="footer">
     <p>
         <small> Created by Muthami.
         </small>
     </p>
-
     <h4>Copyright &copy; 2018 . Muthami Geoffrey</h4>
 </footer>
 </body>
+<script>
+    var btn = document.getElementById('hire');
+    var modal = document.getElementById('modal');
+    var span = document.getElementsByClassName("close")[0];
+
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
 </html>
