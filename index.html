@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 </head>
 <body>
 
@@ -42,13 +42,14 @@
             </p>
             <p>
                 Muthami Geoffrey is a Web Applications Developer focused on CSS, PHP, HTML and JavaScript, with
-                experience developing Apps with Laravel framework, Javascript, CSS and HTML5 as well as APIs in Laravel and client-side single-page apps using AngularJS.
+                experience developing Apps with Laravel framework, Javascript, CSS and HTML5 as well as APIs in Laravel
+                and client-side single-page apps using AngularJS.
                 He's equally comfortable working with a team or flying solo.
             </p>
             <br>
             <div class="">
                 <div class="skill">CSS3</div>
-                <div class="skill">HTML</div>
+                <div class="skill">HTML5</div>
                 <div class="skill">Javascript</div>
                 <div class="skill">PHP</div>
                 <div class="skill">JQuery</div>
@@ -58,6 +59,7 @@
                 <div class="skill">Linux</div>
                 <div class="skill">Git</div>
                 <div class="skill">MySql</div>
+                <div class="skill">Apache2</div>
                 <div class="skill">Responsive Web Design (RWD)</div>
                 <div class="skill">Front-End</div>
                 <div class="skill">Themes & Templates</div>
@@ -74,37 +76,52 @@
                 <li>Sublime text</li>
                 <li>PHP Storm</li>
                 <li>Google Chrome</li>
+                <li>Apache2</li>
             </ul>
         </div>
         <div>
             <h4>Experience</h4>
             <b>Laravel : </b> 5 years<br>
-            <b>HTML : </b> 5 years<br>
-            <b>CSS : </b> 5 years<br>
+            <b>HTML : </b> 6 years<br>
+            <b>CSS : </b> 6 years<br>
+            <b>JQuery : </b> 5 years<br>
             <b>Javascript : </b> 3 years<br>
-            <b>Angular JS : </b> 7 months<br>
+            <b>Angular JS : </b> 5 months<br>
         </div>
         <div>
             <h4>Amazing Project</h4>
             <blockquote>
-                &quot; project I've worked on is a platform to gather the countries population's ideas and transform
-                them into
-                Kenya's city plan for the next fifty years. &quot;
+                &quot; project I've worked on is a platform to manage micro-finance institutions in credit finance,
+                banking, audit, authorizations, reports and other sacco related operations &quot;
             </blockquote>
         </div>
     </div>
 
     <section class="section">
         <div class="section-head">
-            <h2>Employment</h2>
+            <h2>Projects</h2>
         </div>
         <div class="section-desc">
             <h3>PHP/Laravel Developer</h3>
 
             <article class="article">
+                <h4>Lipasasa</h4>
+                <p>
+                    Lipasasa is an online platform that lets you find vacate houses/apartments quickly and efficiently.
+                    It also helps landlords/ladies keep there tenant details, receipts, payments and bills in a digital
+                    form.
+                    Landlords/ladies can get their rental reports quickly anytime at a click of a button.
+                </p>
+                <footer>
+                    Technologies : PHP 7, Laravel, CSS, HTML, Javascript, JQuery.js, Bootstrap 3
+                </footer>
+            </article>
+
+            <article class="article">
                 <h4>Zikilab</h4>
                 <p>
-                    Implementation of video and audio hosting service that allows users to upload, view, download and share such files. 
+                    Implementation of video and audio hosting service that allows users to upload, view, download and
+                    share such files.
                 </p>
                 <footer>
                     Technologies : PHP 7, Laravel, CSS, HTML, Javascript, JQuery.js, Bootstrap 3 & 4, Pusher
@@ -115,7 +132,7 @@
                 <h4>Spartan Systems</i></h4>
                 <p>
                     Implementation of a Micro-Finance Management (MFI) system that aids finance, banking, audit,
-                    adminstration and management of Saccos. <br>
+                    administration and management of Saccos. <br>
                 </p>
                 <footer>
                     Technologies : PHP 7, Laravel, CSS, HTML, Javascript, JQuery.js, Bootstrap 3
@@ -144,11 +161,8 @@
                     up and running.
                 </p>
                 <p>
-                    For more of my projects plus working demo, please visit my <a href="">github</a> account.
+                    Contact me for more of my projects plus working demonstrations.
                 </p>
-                <footer>
-                    Technologies : CSS, HTML, Javascript
-                </footer>
             </article>
         </div>
     </section>
@@ -176,6 +190,9 @@
             <h4>Database/Storage</h4>
             <p>MySql</p>
 
+            <h4>Web Server</h4>
+            <p>Apache2, Caddy Server</p>
+
             <h4>Platforms</h4>
             <p>Linux OS</p>
         </div>
@@ -187,8 +204,6 @@
         </div>
         <div class="section-desc">
             <div class="quotes">
-                <p>Suckin' at something is the first step to being sorta good at something </p>
-
                 <p>Truth is the ultimate power. When the truth comes around, all the lies have to run and hide. ~ <b>Ice
                     Cube</b></p>
 
@@ -223,15 +238,15 @@
     var modal = document.getElementById('modal');
     var span = document.getElementsByClassName("close")[0];
 
-    btn.onclick = function() {
+    btn.onclick = function () {
         modal.style.display = "block";
     }
 
-    span.onclick = function() {
+    span.onclick = function () {
         modal.style.display = "none";
     }
 
-    window.onclick = function(event) {
+    window.onclick = function (event) {
         if (event.target == modal) {
             modal.style.display = "none";
         }
