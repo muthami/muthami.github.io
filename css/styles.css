@@ -10,12 +10,13 @@ html {
 }
 
 body {
-    font-size: 15px;
-    color: #666;
-    font-weight: 400;
-    line-height: 28px;
-    font-family: Ubuntu, sans-serif;
-    background-color: #fafafa;
+    font-family: Ubuntu, "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #444;
+    letter-spacing: .03rem;
+    line-height: 24px;
+    text-rendering: optimizeLegibility;
+    background-color: rgb(230, 236, 240);
 }
 
 h1, h2, h3, h4, h5, p {
@@ -24,7 +25,11 @@ h1, h2, h3, h4, h5, p {
 
 h3 {
     font-weight: 300 !important;
-    color: #888;
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 16px;
 }
 
 hr {
@@ -59,15 +64,12 @@ a {
     top: -100px;
     background-color: #fff;
     min-height: 400px;
-    border: 1px solid #f5f5f5;
     margin-bottom: 40px;
 }
 
 .my-profile {
-    max-width: 90%;
-    height: auto;
-    border-radius: 0;
-    border: 2px solid #f5f5f5;
+    max-width: 100%;
+    border: 1px solid #eee;
 }
 
 .muted {
@@ -77,6 +79,7 @@ a {
 .about {
     padding: 20px;
     display: flex;
+    background-color: #fafafa;
 }
 
 .about div {
@@ -187,13 +190,19 @@ a {
     padding: 20px;
 }
 
-.section-head {
+.profile-section .section-head {
     width: 30%;
-    color: #ccc;
+}
+
+.section-head {
+    width: 20%;
+    color: #999;
+    text-align: right;
+    padding-right: 28px;
 }
 
 .section-desc {
-    width: 70%;
+    width: 80%;
 }
 
 .section-desc table {
@@ -218,7 +227,7 @@ a {
 }
 
 .article {
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .article footer {
@@ -226,8 +235,11 @@ a {
 }
 
 .quotes {
-    color: #999;
-    font-style: italic;
+    background: #fafafa;
+    padding: 10px;
+    border-radius: 4px;
+    color: #888;
+    font-size: small;
 }
 
 @media only screen and (max-width: 768px) {
