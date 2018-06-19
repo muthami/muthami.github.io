@@ -95,7 +95,8 @@ a {
 
 .icon {
     display: inline-block;
-    margin-right: 5px;
+    height: 18px;
+    vertical-align: middle;
 }
 
 .footer {
@@ -104,6 +105,7 @@ a {
     width: 100%;
     padding: 20px;
     bottom: 0 !important;
+    color: #666;
     background-color: #f5f5f5;
 }
 
