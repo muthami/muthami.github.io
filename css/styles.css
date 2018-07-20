@@ -160,18 +160,16 @@ a {
 .modal-content, .modal-header {
     padding: 20px;
     margin: auto;
-    width: 50%;
+    width: 40%;
     background-color: #fff;
 }
 
 .modal-header {
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    background-color: #3ba1d0;
     height: 60px;
     line-height: 20px;
     color: #fff;
     font-weight: bold;
+    background-color: #3ba1d0;
 }
 
 .close {
