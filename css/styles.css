@@ -10,10 +10,10 @@ html {
 }
 
 body {
-    font-family: Ubuntu, "Open Sans", sans-serif;
-    font-size: 14px;
+    font-family: Ubuntu, sans-serif;
+    font-size: 13.5px;
     color: #444;
-    letter-spacing: .03rem;
+    letter-spacing: 1px;
     line-height: 24px;
     background-color: rgb(229, 244, 250);
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABZJREFUeNpi2r9//38gYGAEESAAEGAAasgJOgzOKCoAAAAASUVORK5CYII=);
