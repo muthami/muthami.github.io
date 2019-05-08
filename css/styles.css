@@ -110,18 +110,6 @@ a {
     background-color: #f5f5f5;
 }
 
-.tag {
-    position: absolute;
-    left: 0;
-    width: 186px;
-    color: #fff;
-    font-weight: bold;
-    background-color: #3ca1d0;
-    height: 50px;
-    padding: 0 10px;
-    line-height: 50px;
-}
-
 .hire {
     color: #000;
     text-align: center;
