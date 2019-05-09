@@ -51,6 +51,10 @@ a {
     background-color: #3ba1d0;
 }
 
+.heading span {
+    font-weight: bold
+}
+
 .heading {
     padding: 20px;
     background-color: #fafafa;
@@ -231,7 +235,6 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
-
     body {
         font-size: 13px;
         line-height: 22px;
