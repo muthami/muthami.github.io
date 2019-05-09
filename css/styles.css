@@ -11,11 +11,11 @@ html {
 
 body {
     font-family: Ubuntu, sans-serif;
-    font-size: 13.5px;
-    color: #444;
-    letter-spacing: 1px;
-    line-height: 24px;
-    background-color: #fafafa;
+    font-size: 14px;
+    color: #555;
+    letter-spacing: 1.2px;
+    line-height: 2;
+    background-color: #e6ecf1;
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABZJREFUeNpi2r9//38gYGAEESAAEGAAasgJOgzOKCoAAAAASUVORK5CYII=);
 }
 
@@ -51,18 +51,18 @@ a {
     background-color: #3ba1d0;
 }
 
-.heading span {
-    font-weight: bold
-}
-
 .heading {
     padding: 20px;
     background-color: #e3eaed;
 }
 
+.heading span {
+    font-weight: bold;
+}
+
 .wrapper {
     z-index: 2;
-    width: 840px;
+    width: 860px;
     position: relative;
     margin: 0 auto;
     top: -100px;
@@ -83,7 +83,7 @@ a {
 .about {
     padding: 20px;
     display: flex;
-    background-color: #fafafa;
+    background-color: #e6ecf1;
 }
 
 .about div {
@@ -179,14 +179,16 @@ a {
 }
 
 .section-head {
-    width: 20%;
+    flex-basis: 20%;
     color: #999;
+    padding: 20px;
     text-align: right;
     padding-right: 28px;
 }
 
 .section-desc {
-    width: 80%;
+    flex-basis: 80%;
+    padding: 20px;
 }
 
 .section-desc table {
@@ -256,7 +258,12 @@ a {
 
     .section {
         display: block;
-        padding: 10px;
+        padding: 15px;
+    }
+
+    .section-head {
+        text-align: left;
+        padding: 15px;
     }
 
     .section-head, .section-desc {
