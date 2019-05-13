@@ -15,22 +15,28 @@
 
 <div class="wrapper">
     <header class="heading">
-        <a href="JavaScript:void(0)" class="hire right" id="hire"><img src="imgs/hi.gif">
+        <a href="JavaScript:void(0)" class="hire right" id="hire">
+            <img src="imgs/hi.gif">
             Hi, Please hire me!
         </a>
-
         <h1>Muthami Geoffrey</h1>
         <p>
             <b>Software Developer</b><br>
             <span><img src="imgs/icons/email.svg" class="icon"> ggeovry@gmail.com &nbsp;</span>
             <span><img src="imgs/icons/phone.svg" class="icon"><i> 0716</i> 028726 &nbsp;</span>
         </p>
+
+        <h4 class="email">
+            <span id="email">ggeovry@gmail.com</span>
+        </h4>
+
     </header>
 
     <section class="section profile-section">
         <div class="section-head hide-print">
             <img src="imgs/me.jpg" class="my-profile" alt="Picture of geff">
         </div>
+
 
         <div class="section-desc">
             <h2>About Me</h2>
@@ -39,7 +45,8 @@
             </p>
             <p>
                 Muthami is a Web Applications Developer focused on CSS, PHP, HTML, Vue Js and JavaScript, with
-                experience developing Apps with Laravel framework, and Javascript client-side single-page and multiple page apps apps using VueJS.
+                experience developing Apps with Laravel framework, and Javascript client-side single-page and multiple
+                page apps apps using VueJS.
                 I'm equally comfortable working with a team or flying solo.
             </p>
             <br>
@@ -54,7 +61,8 @@
                 enthusiasm and ambition to complete projects to the highest standard.
             </p>
             <p>
-                My strongest field is frontend design and implementations using vanilla CSS, JS and html. VueJs and Bootstrap are also my best friends.
+                My strongest field is frontend design and implementations using vanilla CSS, JS and html. VueJs and
+                Bootstrap are also my best friends.
                 I'm also good in designing backend apps, REST APIs and consuming these APIs as well on a client app.
             </p>
             <br>
@@ -178,11 +186,12 @@
                 </p>
                 <p>
                     Designed and implemented BigBet soccer web app. BigBet is a web app that provides Soccer Results,
-                    Predictions & Betting tips for top flight competitions in Europe. Uses RESTful API to consume
-                    realtime football data.
+                    Predictions and football related news for top flight competitions in Europe. Uses RESTfull API to
+                    consume
+                    realtime football data and news from other backend servers
                 </p>
                 <footer>
-                    <b>Technologies</b> : PHP 7, Laravel 5, CSS3, JSON, HTML5, Javascript, JQuery, Pusher, Ajax
+                    <b>Technologies</b> : PHP7, Laravel5, CSS3, JSON, HTML5, Javascript, JQuery, Pusher, Ajax
                 </footer>
             </article>
 
@@ -248,7 +257,8 @@
                     Landlords/ladies can get their rental reports quickly anytime at a click of a button.
                 </p>
                 <footer>
-                    <b>Technologies</b> : PHP 7, Laravel 5, CSS3, HTML5, VueJs, Javascript, JQuery, Pusher, Mpesa Daraja API
+                    <b>Technologies</b> : PHP 7, Laravel 5, CSS3, HTML5, VueJs, Javascript, JQuery, Pusher, Mpesa Daraja
+                    API
                 </footer>
             </article>
 
@@ -316,19 +326,6 @@
     </section>
 </div>
 
-<div class="modal" id="modal">
-    <div class="modal-header">
-        <span class="close">&times;</span>
-        HIRE ME
-    </div>
-    <div class="modal-content">
-        <p>
-            Cell Phone : <b>0716 028726</b><br>
-            E-Mail Address : <b>ggeovry@gmail.com</b>
-        </p>
-    </div>
-</div>
-
 <footer class="footer">
     <p>
         <a href="https://twitter.com/geoffreymuthami" title="Find me on Twitter" target="_blank">
@@ -340,26 +337,5 @@
     </p>
     <h5>Designed & Created by <a href="">Muthami Geoffrey</a></h5>
 </footer>
-
-<script>
-    var btn = document.getElementById('hire');
-    var modal = document.getElementById('modal');
-    var span = document.getElementsByClassName("close")[0];
-
-    btn.onclick = function () {
-        modal.style.display = "block";
-    }
-
-    span.onclick = function () {
-        modal.style.display = "none";
-    }
-
-    window.onclick = function (event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
-</script>
-</body>
 
 </html>
