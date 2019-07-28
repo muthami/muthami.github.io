@@ -10,17 +10,16 @@ html {
 }
 
 body {
-    font-family: Ubuntu, sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 14px;
     color: #555;
-    letter-spacing: 1.2px;
+    letter-spacing: 1px;
     line-height: 2;
-    background-color: #e6ecf1;
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABZJREFUeNpi2r9//38gYGAEESAAEGAAasgJOgzOKCoAAAAASUVORK5CYII=);
+    background-color: #f5f5f5;
 }
 
 h1, h2, h3, h4, h5, p {
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 h3 {
@@ -53,7 +52,7 @@ a {
 
 .heading {
     padding: 20px;
-    background-color: #e3eaed;
+    background-color: #3ba1d017;
 }
 
 .heading span {
@@ -62,13 +61,14 @@ a {
 
 .wrapper {
     z-index: 2;
-    width: 860px;
+    width: 800px;
     position: relative;
     margin: 0 auto;
     top: -100px;
     background-color: #fff;
     min-height: 400px;
     margin-bottom: 45px;
+    border: 1px solid #eee;
 }
 
 .email {
@@ -91,15 +91,6 @@ a {
     color: #999;
 }
 
-.about {
-    padding: 20px;
-    display: flex;
-    background-color: #e6ecf1;
-}
-
-.about div {
-    width: 33%;
-}
 
 .skill {
     display: inline-block;
